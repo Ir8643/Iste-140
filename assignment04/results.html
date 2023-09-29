@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+<body>
+    <h1>HTML Forms Results</h1>
+
+<div id="message"></div>>
+
+    <script>
+        var urlPArms = new URLSearchParams(window.location.search);
+        var firstName = urlPArms.get('fname');
+
+        var message = document.getElementById("message");
+        message.innerHTML = "<span>First Name: </span><span>"  + firstName + "</span><br>";
+    </script>
+    </div>
+</body>
+</html>
