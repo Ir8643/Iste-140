@@ -1,10 +1,10 @@
 body {
-    color: #333333;
-    background-color: snow;
+    color: black;
+    background-color: rgb(188, 188, 188);
     }
     img {
-    float: right;
     margin-left: 15px;
+    float: right;
     }
     h1 { text-align: center; }
     h1, h2 {
